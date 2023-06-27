@@ -1,5 +1,5 @@
-import React from "react-native";
-import Dimensions from 'Dimensions';
+import  React from "react-native";
+import  Dimensions from 'Dimensions';
 
 import { StyleSheet } from 'react-native';
 
