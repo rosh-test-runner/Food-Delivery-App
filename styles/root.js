@@ -7,7 +7,7 @@ const x = Dimensions.get('window').width;
 const y = Dimensions.get('window').height;
 
 // Calculating ratio from iPhone breakpoints
-const ratioX = x < 375 ? (x < 320 ? 0.75 : 0.875) : 1 ;
+const ratioX =   x < 375 ? (x < 320 ? 0.75 : 0.875) : 1 ;
 const ratioY = y < 568 ? (y < 480 ? 0.75 : 0.875) : 1 ;
 
 // We set our base font size value
