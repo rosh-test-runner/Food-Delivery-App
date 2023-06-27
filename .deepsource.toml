@@ -17,4 +17,4 @@ name = "javascript"
 name = "google-java-format"
 
 [[transformers]]
-name = "standardjs"
+name = "prettier"
