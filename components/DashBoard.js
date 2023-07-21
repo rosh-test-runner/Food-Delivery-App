@@ -25,7 +25,7 @@ class DashBoard extends Component {
   render() {
     return <Router>
       <Scene key="root">
-        <Scene key="app" component={App} hideNavBar={true}/>
+        <Scene key="app" component={App} hideNavBar/>
         <Scene key="notifications" component={Notifications} title="Notifications"/>
         <Scene key="past_orders" component={PastOrders} title="Past Orders"/>
         <Scene key="review_order" component={ReviewOrder} title="Review Order"/>
