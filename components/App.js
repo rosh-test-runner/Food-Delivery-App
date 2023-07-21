@@ -104,14 +104,13 @@ class App extends Component {
 			 	  			theme = "light"
 			 	  			onIconPress ={() => {_emitter.emit('openMenu')}}
 			 	  			actions = {this.state.actions}
-			 	  		>
-			 	  		</Toolbar>
+			 	  		 />
 				      	<ScrollableTabView
 				      	  style={{marginTop: 48, }}
 					      initialPage={0}
 					      renderTabBar={() => <ScrollableTabBar />}>
-						      <HotDeals tabLabel='Recommended' addToCart={(x) => this._addItemToCart(x)}></HotDeals>
-						      <HotDeals tabLabel='South Indian' addToCart={(x) => this._addItemToCart(x)} ></HotDeals>
+						      <HotDeals tabLabel='Recommended' addToCart={(x) => this._addItemToCart(x)} />
+						      <HotDeals tabLabel='South Indian' addToCart={(x) => this._addItemToCart(x)}  />
 						      <HotDeals tabLabel='Curries' addToCart={(x) => this._addItemToCart(x)}>project</HotDeals>
 						      <Text tabLabel='Indian Breads'>favorite</Text>
 						      <Text tabLabel='Rice'>project</Text>

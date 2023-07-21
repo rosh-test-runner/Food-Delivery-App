@@ -76,7 +76,7 @@ class Menu extends Component {
 			<View style={styles.drawer_list_item}>
 				<TouchableOpacity onPress={()=> this.onItemSelect(item)}>
 					<View style={styles.item_container}>
-						<View style={styles.item_icon}><Icon style={styles.icon} name={item.icon} size={36}></Icon></View>
+						<View style={styles.item_icon}><Icon style={styles.icon} name={item.icon} size={36} /></View>
 						<View style={styles.item_title}><Text style={styles.title_text}> {item.name} </Text></View>
 					</View>
 				</TouchableOpacity>
@@ -96,7 +96,7 @@ class Menu extends Component {
 					<ListView
 						dataSource={this.state.dataSource}
 						renderRow={ (item) => this._renderMenuItem(item) }
-					></ListView>
+					 />
 				</View>
 				<View style={styles.footer_container}>
 					<TouchableOpacity style={styles.button}>
